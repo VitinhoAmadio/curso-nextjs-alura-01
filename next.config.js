@@ -5,7 +5,7 @@ module.exports = {
       {
         source: '/perguntas',
         destination: '/faq',
-        permanet: true,
+        permanent: true,
       }
     ]
   },
