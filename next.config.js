@@ -1,13 +1,7 @@
-
-// /** @type {import('next').NextConfig} */
-// const nextConfig = {
-//   reactStrictMode: true,
-// }
-
 module.exports = {
   trailingSlash: true,
   async redirects() {
-    retunr [
+    return [
       {
         source: '/perguntas',
         destination: '/faq',
